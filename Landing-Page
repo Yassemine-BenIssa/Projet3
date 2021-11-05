@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <img id="logo" src="img1.jpg" alt="logo-delivery">
-    <ul id="li/A">
+    <img src="img1.jpg" alt="logo">
+    <ul id="A">
         <li>hotline number +212645567790</li>
         <li>Home</li>
         <li>About</li>
@@ -15,7 +16,6 @@
         <li>contact</li>
     </ul>
 </body>
-</head>
 </html>
              
 
