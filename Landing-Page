@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header id="navbar-header"
-             <h1>landing page</h1>
+<body>
+    <img id="logo" src="img1.jpg" alt="logo-delivery">
+    <ul id="li/A">
+        <li>hotline number +212645567790</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>services</li>
+        <li>track</li>
+        <li>contact</li>
+    </ul>
+</body>
+</head>
+</html>
+             
+
 
