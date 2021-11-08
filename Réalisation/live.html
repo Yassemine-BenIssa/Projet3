@@ -1,61 +1,81 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="live.css">
-</head>
-<body class="container">
-    <header class="row"> 
-        <h1 class="h-one">
-            Lorem ipsum dolor sit.
-        </h1>
-        <nav>
-            <ul>
-                <li>list1</li>
-                <li>list2</li>
-                <li>list3</li>
-            </ul>
-        </nav>
-    </header>
-    <main class="row">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="greed.css">
+        <style>
+            body{
+                margin: 0px;
+            }
+            header nav ul  {
+                display: flex;
+                list-style: none;
+            }
+            header nav ul li{
+                flex : 0 0 100px;
+                background-color: rgb(34, 117, 185);
+                color : white;
+                margin: 0px 4px;
+                padding: 3px;
+                text-align: center;
 
-        <aside>
+            }
+            main h1{
+                color: rgb(91, 216, 108);
+            }
+            aside {
+                background-color: rgb(87, 146, 151);
+            }
+            footer{
+                background-color: rgb(17, 85, 167);
+                color: white;
+                padding: 0.25rem;
+            }
+        </style>
+    </head>
+    <body class="container">
+        <header class="row">
             <nav>
                 <ul>
-                    <li>page1</li>
-                    <li>page2</li>
-                    <li>page3</li>
+                    <li>Accueil</li>
+                    <li>Page 1</li>
+                    <li>Page 2</li>
+                    <li>Page 3</li>
                 </ul>
             </nav>
-        </aside>
-        <article>
-            <h1>titre</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aut quis dolores impedit laborum veritatis, ipsum harum pariatur accusantium iste repudiandae, dolore magnam ratione nam nesciunt ullam suscipit, laboriosam quasi reprehenderit provident necessitatibus voluptate sapiente excepturi at. Ullam quae laudantium eligendi adipisci assumenda, eaque fugit enim harum, doloribus repellat, amet perspiciatis! Dolorum ab porro animi delectus dolorem ea ad qui veniam iure accusamus vitae tempora, quod repudiandae quia facere incidunt, quos sapiente ipsam magnam sint, quas laborum. Sed fugiat nemo inventore exercitationem fuga reiciendis nesciunt sint, in vero recusandae accusamus a consequuntur facilis est incidunt voluptas totam maxime obcaecati aliquid dolorem eligendi ab et. Natus, dolores! Soluta harum beatae provident esse vero quaerat, dicta illo et totam repudiandae quis qui, incidunt commodi tempore temporibus amet, iure veritatis ea natus sint nam quidem! Dolorem sint itaque similique dolore magnam aperiam delectus vero accusamus? Voluptates labore voluptatibus modi doloremque corporis voluptatum incidunt aliquam provident minus aut a nemo, earum dolor consequuntur, deleniti ipsum quisquam, officia illo libero officiis harum nihil! Hic vitae iste vel dolore in facilis nostrum non totam maiores, quis quibusdam fugiat saepe iusto? Molestias rem hic accusamus, tenetur, sint earum dicta illum quod deleniti iure, quidem cumque? Molestiae corporis quia non aperiam hic vitae corrupti alias, minus, facilis quos natus quis. Cupiditate, maiores possimus quod ipsum cumque recusandae, esse blanditiis eius officia voluptate dolore repellendus sapiente rem dicta neque nobis quia veritatis ipsam impedit reprehenderit, facere praesentium laudantium! Tempore libero adipisci quod ex quis alias aliquam, illum rem quas voluptatum fugit harum, facere veniam eligendi. Voluptas nostrum at ad delectus praesentium beatae. Doloremque at officiis alias ab aliquid. Alias reprehenderit amet ipsam, obcaecati sed eveniet. Et, delectus temporibus pariatur quia optio rem dolores laudantium, iure similique aspernatur laboriosam illum maxime aut. Molestias, error. Alias quia repudiandae esse dolorem quibusdam!</p>
-        </article>
-<aside>
-    <nav>
-        <h3>navigation</h3>
-        <ul>
-            <li>page1</li>
-            <li>page2</li>
-            <li>page3</li>
-        </ul>
-    </nav>
-</aside>
-<article>
-    <aside>
-        <nav>
+        </header>
+        <main class="row">
+            <aside class="col-xs-12 col-md-3 col-lg-2">
+                <nav>
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li>Accueil</li>
+                        <li>Page 1</li>
+                        <li>Page 2</li>
+                        <li>Page 3</li>
+                    </ul>
+                </nav>
+            </aside>
+            <article class="col-xs-12 col-md-6 col-lg-8">
+                <h1>Titre de l'article</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste dolorum ipsam omnis perfeusamus, consectetur corrupti nostrum illo, consequatur tempora dolorum vitae labore temporibus similique saepe voluptatum libero ducimus adipisci maiores?</p>
+            </article>
+            <aside class="col-xs-12 col-md-6 col-lg-2">
+                <nav>
+                    <h3>Catégories</h3>
+                    <ul>
+                        <li>Catégorie 1</li>
+                        <li>Catégorie 2</li>
+                        <li>Catégorie 3</li>
+                    </ul>
+                </nav>
+            </aside>
 
-        </nav>
-    </aside>
-</article>
-    </main>
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, earum quae omnis vitae ex ut ducimus ea hic quia amet eligendi enim dolor, architecto at quod eos a sequi necessitatibus iste modi nihil et similique voluptate! Distinctio nisi, necessitatibus non, perspiciatis cupiditate et, a rerum ipsa blanditiis autem quasi magnam!</p>
-    </footer>
-    
-</body>
-</html>
+        </main>
+        <footer class="row">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iure recusandae consectetur harum uatur in quis, quia cum.</p>
+        </footer>
+    </body>
+    </html
