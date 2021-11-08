@@ -1,0 +1,86 @@
+.container {
+
+
+}
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+box-sizing: border-box;
+flex:0 0 auto;
+padding-right: 0.5rem;
+padding-left: 0.5rem;
+}
+.col-xs{
+    flex-grow: 1;
+    flex-basis: 1;
+    max-width: 100%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-2{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-3{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-4{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-5{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+.col-xs-1{
+    flex-basis: 8,3333333%;
+    max-width: 8,33333333%;
+}
+
+
+
+
